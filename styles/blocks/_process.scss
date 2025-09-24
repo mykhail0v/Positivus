@@ -72,11 +72,13 @@
             &::before {
                 content: var(--counterContent);
                 font-size: 2em;
+
+                @include mobile {
+                font-size: 30px;
+                }
             }
 
-            @include mobile {
-                font-size: 30px;
-            }
+
         }
 
         &-indicator {
