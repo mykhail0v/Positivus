@@ -7,7 +7,10 @@
   'utils',
   'globals';
 
-@import 
+@import
+'blocks/field', 
+'blocks/radios', 
+'blocks/radio', 
 'blocks/button',
 'blocks/grid',
 'blocks/burger-button',
@@ -26,4 +29,5 @@
 'blocks/team-card',
 'blocks/pagination',
 'blocks/reviews',
-'blocks/review-card';
+'blocks/review-card',
+'blocks/contact-us';
